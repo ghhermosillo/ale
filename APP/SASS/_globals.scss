@@ -1,0 +1,40 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "freight", sans-serif;
+  line-height: 1.5;
+  background-color: $mainwhithe;
+  align-content: center;
+  h2 {
+    font-family: Helvetica, sans-serif;
+  }
+  p {
+    font-family: "freight", sans-serif;
+  }
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+nav {
+  margin-top: 5rem;
+  a {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: black;
+    &:hover {
+      color: $azul;
+    }
+  }
+}

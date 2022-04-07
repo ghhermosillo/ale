@@ -1,0 +1,327 @@
+@font-face {
+  font-family: freight;
+  src: url(/ASSETS/fonts/freight_text_bold-webfont.woff);
+}
+
+@font-face {
+  font-family: winkle;
+  src: url(/ASSETS/fonts/Winkle-Regular.ttf);
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "freight", sans-serif;
+  line-height: 1.5;
+  background-color: #f1f1e6;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body h2 {
+  font-family: Helvetica, sans-serif;
+}
+
+body p {
+  font-family: "freight", sans-serif;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav {
+  margin-top: 5rem;
+}
+
+nav a {
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  color: black;
+}
+
+nav a:hover {
+  color: #094067;
+}
+
+.contenedor {
+  width: 100%;
+  height: 76.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url(/ASSETS/cesar-couto-TIvFLeqZ4ec-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alebb {
+  position: absolute;
+  top: 260px;
+}
+
+.alebb img {
+  width: 100px;
+  height: auto;
+}
+
+.idk {
+  display: block;
+}
+
+.idk img {
+  width: 100px;
+  height: auto;
+  -webkit-transform: scale(-1);
+          transform: scale(-1);
+  margin-left: 450px;
+}
+
+.idk p {
+  font-size: 1.8rem;
+  font-family: "winkle", sans-serif;
+  margin-left: 500px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  color: #f1f1e6;
+}
+
+h2:hover {
+  color: #094067;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.contenedor_b {
+  background: url(/ASSETS/dylan-nolte-SH_IjrKwG8c-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cajas {
+  margin: auto 50px;
+  height: 76.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cajas a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f1f1e6;
+  background-color: rgba(245, 164, 164, 0.969);
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-decoration: none;
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.cajas a p {
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.cajas a:hover {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  border: solid #f1f1e6;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.video {
+  margin-top: 10rem;
+  width: 100%;
+  height: 73.4rem;
+}
+
+.video h4 {
+  font-size: 3rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.video iframe {
+  width: 112rem;
+  height: 63rem;
+}
+
+.video .flex_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.video h3 {
+  font-size: 3rem;
+  margin-top: 10rem;
+}
+
+.video img {
+  margin: 3rem 3rem;
+  width: 30rem;
+  height: auto;
+}
+
+.video img:hover {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.caja_galeria h3 {
+  margin-top: 5rem;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: Helvetica, sans-serif;
+}
+
+.galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.galeria div {
+  margin-top: 3rem;
+}
+
+.galeria div img {
+  width: 30rem;
+  height: 40rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor_carta {
+  width: 70%;
+  margin-top: 50px;
+}
+
+.contenedor_carta p {
+  letter-spacing: 1.5px;
+  line-height: 2;
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+.contenedor_recursos {
+  width: 50%;
+  margin-top: 5rem;
+}
+
+.contenedor_recursos h2 {
+  color: #242629;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.contenedor_recursos h2:hover {
+  color: #242629;
+}
+
+.contenedor_recursos p {
+  text-align: justify;
+  margin-top: 3rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.contenedor_recursos a {
+  text-decoration: none;
+  color: #242629;
+  font-size: 1.6rem;
+  text-align: justify;
+  font-family: Helvetica, sans-serif;
+}
+
+.contenedor_recursos a:hover {
+  color: #094067;
+}
+/*# sourceMappingURL=main.css.map */

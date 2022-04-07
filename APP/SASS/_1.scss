@@ -1,0 +1,50 @@
+.contenedor {
+  width: 100%;
+  height: 76.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(/ASSETS/cesar-couto-TIvFLeqZ4ec-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.alebb {
+  position: absolute;
+  top: 260px;
+  img {
+    width: 100px;
+    height: auto;
+  }
+}
+.idk {
+  display: block;
+
+  img {
+    width: 100px;
+    height: auto;
+    transform: scale(-1);
+    margin-left: 450px;
+  }
+  p {
+    font-size: 1.8rem;
+    font-family: $winkle;
+    margin-left: 500px;
+  }
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  color: $mainwhithe;
+
+  &:hover {
+    color: $azul;
+  }
+}
+p {
+  font-size: 1.6rem;
+}

@@ -1,0 +1,81 @@
+.contenedor_b {
+  background: url(/ASSETS/dylan-nolte-SH_IjrKwG8c-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cajas {
+  margin: auto 50px;
+  height: 76.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $mainwhithe;
+    background-color: rgba(245, 164, 164, 0.969);
+    align-self: center;
+    text-decoration: none;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    p {
+      font-family: Helvetica, sans-serif;
+      font-weight: 600;
+    }
+    &:hover {
+      transition: 0.2s ease-in-out;
+      border: solid $mainwhithe;
+      transform: scale(1.1);
+    }
+  }
+}
+
+// .cajas {
+//   display: grid;
+//   height: 75rem;
+//   width: 100%;
+//   grid-template-columns: 10% 15% 5% 15% 5% 15% 5% 15% 10%;
+
+//   grid-gap: 10px;
+
+//   grid-template-rows: 20% 15% 15% 15% 15% 20%;
+//   align-self: start;
+//   .caja {
+//     align-self: center;
+//     justify-self: center;
+
+//     a {
+//       color: black;
+//       text-decoration: none;
+//       &:hover {
+//         color: red;
+//       }
+//     }
+//   }
+//   #c1 {
+//     grid-column: 2;
+//     grid-row: 3;
+//     grid-area: 3 / 2 / 5 / 2;
+//   }
+//   #c2 {
+//     grid-column: 4;
+//     grid-row: 3;
+//     grid-area: 3 / 4 / 5 / 4;
+//   }
+//   #c3 {
+//     grid-column: 6;
+//     grid-row: 3;
+//     grid-area: 3 / 6 / 5 / 6;
+//   }
+//   #c4 {
+//     grid-column: 8;
+//     grid-row: 3;
+//     grid-area: 3 / 8 / 5 / 8;
+//   }
+// }

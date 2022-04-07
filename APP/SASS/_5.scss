@@ -1,0 +1,29 @@
+.contenedor_recursos {
+  width: 50%;
+  margin-top: 5rem;
+
+  h2 {
+    color: $mainblack;
+    margin-top: 3rem;
+    font-size: 2rem;
+    &:hover {
+      color: $mainblack;
+    }
+  }
+  p {
+    text-align: justify;
+    margin-top: 3rem;
+    font-family: Helvetica, sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: $mainblack;
+    font-size: 1.6rem;
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    &:hover {
+      color: $azul;
+    }
+  }
+}

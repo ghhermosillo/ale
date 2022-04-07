@@ -1,0 +1,33 @@
+.video {
+  margin-top: 10rem;
+  width: 100%;
+  height: 73.4rem;
+  h4 {
+    font-size: 3rem;
+    font-family: Helvetica, sans-serif;
+  }
+  iframe {
+    width: 112rem;
+    height: 63rem;
+  }
+  .flex_row {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  h3 {
+    font-size: 3rem;
+    margin-top: 10rem;
+  }
+  img {
+    margin: 3rem 3rem;
+    width: 30rem;
+    height: auto;
+    &:hover {
+      transition: 0.3s ease-in-out;
+      transform: scale(1.1);
+    }
+  }
+}
